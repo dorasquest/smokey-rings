@@ -59,6 +59,7 @@ const PlaceOrder: React.FC = () => {
             position: 'absolute',
             left: '60px',
             top: '50px',
+            height: '70vh',
             bottom: '40px',
             zIndex: 2,
             width: { xs: '90vw', sm: '70vw', md: '40vw', lg: '32vw' },
@@ -77,7 +78,7 @@ const PlaceOrder: React.FC = () => {
       >
         <Typography
           variant="h4"
-          component="h2"
+          component="h4"
           sx={{
             fontFamily: '"Finger Paint", sans-serif',
             mb: 2,
@@ -85,7 +86,7 @@ const PlaceOrder: React.FC = () => {
             textShadow: '2px 2px 4px rgba(255,255,255,0.2)',
           }}
         >
-          Place Your Order
+          How to place an order?
         </Typography>
         {/* Steps as points */}
         <Box sx={{ width: '100%', mb: 3 }}>
@@ -123,7 +124,8 @@ const PlaceOrder: React.FC = () => {
             py: 1.5,
             px: 4,
             borderRadius: 8,
-            mt: 2,
+            mt: 0.5, // Move button up slightly
+            mb: 1,   // Add a little space below if needed
             '&:hover': { bgcolor: '#A35A51' },
           }}
         >

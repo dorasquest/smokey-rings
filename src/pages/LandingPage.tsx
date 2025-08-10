@@ -8,7 +8,6 @@ import TestimonialCarousel from "../components/TestimonicalsSection";
 import TrustAndQualitySection from "../components/TrustAndQualitySection";
 import meatplatterimg from "../assets/meatplatter.jpg";
 import FullWidthImage from "../components/FullWidthImageSection";
-import HowItWorks from "../components/PlaceHolderSection";
 import ContactUs from "../components/ContactUsSection";
 import PlaceOrder from "../components/PlaceOrderSection";
 
